@@ -12,7 +12,7 @@ This project implements a complete machine learning pipeline to predict traffic 
 
 ## 📊 Dataset
 
-- **Source**: `cleaned.csv` (12,316 records, 16 features)
+- **Source**: `dataset.csv` (12,316 records, 16 features)
 - **Target Variable**: `Accident_severity` (0, 1, 2)
 - **Key Features**:
   - Speed (synthetic feature)
@@ -86,7 +86,7 @@ scikit-learn
 
 ### Usage
 
-1. Ensure `cleaned.csv` is in the project directory
+1. Ensure `dataset.csv` is in the project directory
 2. Open `main.ipynb` in Jupyter Notebook or JupyterLab
 3. Run all cells sequentially to execute the complete pipeline
 4. View model performance comparisons in the output
@@ -97,7 +97,7 @@ scikit-learn
 Traffic Accident Severity Prediction/
 │
 ├── main.ipynb          # Main Jupyter notebook with complete pipeline
-├── cleaned.csv         # Dataset file
+├── dataset.csv         # Dataset file
 ├── README.md          # Project documentation
 └── venv/              # Virtual environment (if created)
 ```
